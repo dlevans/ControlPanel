@@ -1,0 +1,113 @@
+<ScrollView 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+    
+    <Button
+        android:id="@+id/pattern0"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="THIRDS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/pattern1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="EVERY OTHER" />
+    
+    <Button
+        android:id="@+id/pattern2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="CHASE" />
+
+    <Button
+        android:id="@+id/pattern3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern2"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="RAINBOW 1"/>
+    
+    <Button
+        android:id="@+id/pattern4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern3"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="RAINBOW 2"/>
+    
+    <Button
+        android:id="@+id/pattern5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern4"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="SOLID"/>
+    
+    <Button
+        android:id="@+id/pattern6"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern5"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="5-0"/>
+    
+    <Button
+        android:id="@+id/pattern7"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern6"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="SOUND"/>
+    
+    <Button
+        android:id="@+id/pattern8"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern7"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="OFF"/>
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,104 @@
+<ScrollView 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="612px"
+        android:layout_height="612px"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:src="@drawable/car" />
+
+    <Button
+        android:id="@+id/color1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Color 1" />
+    
+    <Button
+        android:id="@+id/color2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/color1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Color 2" />
+    
+    <Button
+        android:id="@+id/color3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/color2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Color 3" />
+    
+    <Button
+        android:id="@+id/color4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/color3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Color 4" />
+    
+    <Button
+        android:id="@+id/speed"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/color4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Speed" />
+
+    <Button
+        android:id="@+id/pattern"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/speed"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="Pattern"/>
+    
+    <Button
+        android:id="@+id/address"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pattern"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:text="BT Address"/>
+
+</RelativeLayout>
+
+</ScrollView>
